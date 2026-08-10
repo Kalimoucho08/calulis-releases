@@ -22,7 +22,7 @@ Aucune installation — tout est embarqué (MySQL, PHP, interface web).
 Si oui, il propose de la télécharger et de l'installer **automatiquement** :
 
 - ✅ Patchs **incrémentaux** (quelques Ko) — seuls les fichiers modifiés sont téléchargés
-- ✅ Vérification SHA-256 — intégrité garantie
+- ✅ Vérification SHA-256 (quand le hash est renseigné dans le manifeste)
 - ✅ Backup automatique avant chaque mise à jour
 - ✅ Pas besoin de retélécharger le ZIP complet
 
