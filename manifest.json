@@ -1,6 +1,16 @@
 {
-  "latestVersion": "1.0.0",
-  "patches": [],
+  "latestVersion": "1.0.1",
+  "patches": [
+    {
+      "from": "1.0.0",
+      "to": "1.0.1",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.0-1.0.1.zip",
+      "sha256": "e16c6f3b757e402f98f19507a1933ecb8aa06208747037d0d0675794643c1e55",
+      "launcherVersion": "1.0.0",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 2
+    }
+  ],
   "full": {
     "version": "1.0.0",
     "url": "https://e.pcloud.link/publink/show?code=XZQEmy7Zm2ML8Hm74j85Ap27PJwymfycGj1y",
