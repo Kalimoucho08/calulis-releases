@@ -1,11 +1,20 @@
 {
-  "latestVersion": "1.0.1",
+  "latestVersion": "1.0.2",
   "patches": [
     {
       "from": "1.0.0",
       "to": "1.0.1",
       "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.0-1.0.1.zip",
       "sha256": "e16c6f3b757e402f98f19507a1933ecb8aa06208747037d0d0675794643c1e55",
+      "launcherVersion": "1.0.0",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 2
+    },
+    {
+      "from": "1.0.1",
+      "to": "1.0.2",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.1-1.0.2.zip",
+      "sha256": "da5abf53e6d58415e9c1a42bcd22701f6bb771b927aedfbac69e51cf20557ad2",
       "launcherVersion": "1.0.0",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 2
