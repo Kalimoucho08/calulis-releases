@@ -5,9 +5,9 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 
 ## 📥 Téléchargement
 
-**Dernière version : v1.0.1**
+**Dernière version : v1.0.2**
 
-[Télécharger Calulis v1.0.1](https://e.pcloud.link/publink/show?code=XZQY1y7ZHJ4aKWXeNpmQw3HsMgzXFhFhpnMk) (230 Mo, portable)
+[Télécharger Calulis v1.0.2](https://e.pcloud.link/publink/show?code=XZAEny7ZpgIcmPxVmCSqLFE8fmcv4hOFmOAV) (230 Mo, portable)
 
 1. Extraire le ZIP n'importe où
 2. Double-clic sur `Calulis.bat`
