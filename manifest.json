@@ -32,7 +32,7 @@
       "from": "1.0.3",
       "to": "1.0.4",
       "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.3-1.0.4.zip",
-      "sha256": "3c2f94b87b20550548c9981ae6d86a8ebbd5aa0466b4554f46d0fff66e1fa03d",
+      "sha256": "80297a1483ba5dae4b3185e39da942b0f7939920a45c3f9c253e35ffbcfa97a8",
       "launcherVersion": "1.0.1",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 2
