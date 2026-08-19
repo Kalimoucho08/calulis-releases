@@ -1,5 +1,5 @@
 {
-  "latestVersion": "1.0.3",
+  "latestVersion": "1.0.4",
   "patches": [
     {
       "from": "1.0.0",
@@ -27,8 +27,22 @@
       "launcherVersion": "1.0.0",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 2
+    },
+    {
+      "from": "1.0.3",
+      "to": "1.0.4",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.3-1.0.4.zip",
+      "sha256": "3c2f94b87b20550548c9981ae6d86a8ebbd5aa0466b4554f46d0fff66e1fa03d",
+      "launcherVersion": "1.0.1",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 2
     }
   ],
+  "launcher": {
+    "version": "1.0.1",
+    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.1.zip",
+    "sha256": "0056a7fd4049b64c5b841decd48818b39c35b278f3efa9aa0501c2bdf9e9bb3b"
+  },
   "full": {
     "version": "1.0.3",
     "url": "https://e.pcloud.link/publink/show?code=XZxC9y7ZUM6UulVGX4RCoU9ymFuQdhB94N7V",
