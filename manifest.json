@@ -1,5 +1,5 @@
 {
-  "latestVersion": "1.0.5",
+  "latestVersion": "1.0.6",
   "patches": [
     {
       "from": "1.0.0",
@@ -42,6 +42,15 @@
       "to": "1.0.5",
       "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.4-1.0.5.zip",
       "sha256": "26996bddccfbbcc7025bd74003c1e021d3d1e70b9c059971c3774674ec469460",
+      "launcherVersion": "1.0.1",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 2
+    },
+    {
+      "from": "1.0.5",
+      "to": "1.0.6",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.5-1.0.6.zip",
+      "sha256": "ab6eac9ac04a12417375ede08c1d62eadcc508ed39841784a4574449fd8882e8",
       "launcherVersion": "1.0.1",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 2
