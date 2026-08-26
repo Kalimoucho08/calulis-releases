@@ -50,7 +50,7 @@
       "from": "1.0.5",
       "to": "1.0.6",
       "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.5-1.0.6.zip",
-      "sha256": "ab6eac9ac04a12417375ede08c1d62eadcc508ed39841784a4574449fd8882e8",
+      "sha256": "16414d87b9b291c5f963d61c3dc8c6a5db4d5b501e307c8af35e2c0ae2abeff2",
       "launcherVersion": "1.0.1",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 2
