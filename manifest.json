@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0.6",
-  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZeQcy7ZgHi9UCaUJoQW127ztR4LB4X3YeBX",
+  "latestVersion": "1.0.7",
+  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZpecy7Z0uC8MBA9WWRfouemAp5JHbvlBSkk",
   "patches": [
     {
       "from": "1.0.0",
@@ -61,18 +61,28 @@
       "launcherVersion": "1.0.1",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 2
+    },
+    {
+      "from": "1.0.6",
+      "to": "1.0.7",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.6-1.0.7.zip",
+      "mirror": "https://e.pcloud.link/publink/show?code=XZkecy7ZuJGQ9kG5DxFPMJac9VQc8z37pEVX",
+      "sha256": "4fa5cc5f522906220b180dacab96dfcc76dd62721aed9d825ba573f5bfd3e40c",
+      "launcherVersion": "1.0.1",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 2
     }
   ],
   "launcher": {
-    "version": "1.0.1",
-    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.1.zip",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZpQcy7ZHhFlS9sAJOb6dI0KiNMxFXpXyy6y",
-    "sha256": "0056a7fd4049b64c5b841decd48818b39c35b278f3efa9aa0501c2bdf9e9bb3b"
+    "version": "1.0.2",
+    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.2.zip",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZXecy7Zjn0NkdmBRXVmcvLRpjNqPzDwuPrX",
+    "sha256": "451758a5762144c236a20ea87ac5fc39c8bf6ae9ae3d2301e305121fd1b02c4d"
   },
   "full": {
-    "version": "1.0.6",
-    "url": "https://e.pcloud.link/publink/show?code=XZzsry7Zf8Es5Cl1IyB1Gq8I3lVpcpdYjBc7",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZzsry7Zf8Es5Cl1IyB1Gq8I3lVpcpdYjBc7",
-    "sha256": "35658236e9b388841b4d7b46a915ce2bc11968fdaaedf79626e70958486abf24"
+    "version": "1.0.7",
+    "url": "https://e.pcloud.link/publink/show?code=XZ7ecy7ZEl4AnDhyVTpa12CIpMKUE4or7e7y",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZ7ecy7ZEl4AnDhyVTpa12CIpMKUE4or7e7y",
+    "sha256": "690613ff44f9aa27ff958a763429df61890a305efd1e3f49e0c74f3f48b33957"
   }
 }
