@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.0.8",
-  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZpecy7Z0uC8MBA9WWRfouemAp5JHbvlBSkk",
+  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZpsJ77ZSv7Bx7NDEy5DcpHgqIm1D4sosPd7",
   "patches": [
     {
       "from": "1.0.0",
@@ -76,6 +76,7 @@
       "from": "1.0.7",
       "to": "1.0.8",
       "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.7-1.0.8.zip",
+      "mirror": "https://e.pcloud.link/publink/show?code=XZRsJ77Z2mQWg9jRuApFDhrRoIbzKJxcaCIX",
       "sha256": "56e6e51402f8c1d2a410a5ac2a7d79a6b9b948cb6b043c6d383ebf5fe5e00cc4",
       "launcherVersion": "1.0.1",
       "requiresLauncherUpdate": false,
