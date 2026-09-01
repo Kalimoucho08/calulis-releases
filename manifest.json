@@ -1,7 +1,17 @@
 {
-  "latestVersion": "1.0.9",
-  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZW3p77ZiWRDf0sE195uy2Bzv8MLWpElhdAy",
+  "latestVersion": "1.0.9.1",
+  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZXop77ZWIthTmKHKVR6AueryHXLqFvOfj6V",
   "patches": [
+    {
+      "from": "1.0.9",
+      "to": "1.0.9.1",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.9-1.0.9.1.zip",
+      "mirror": "https://e.pcloud.link/publink/show?code=XZMcp77ZCXzhLeGWyy0KvllWnkxS2BP23noy",
+      "sha256": "8fa68fa7f2cbc85cee8f49a06dbb476c3c43f681ee42516adc0be81e3fdb361f",
+      "launcherVersion": "1.0.3",
+      "requiresLauncherUpdate": true,
+      "dbSchemaVersion": 3
+    },
     {
       "from": "1.0.8",
       "to": "1.0.9",
@@ -94,15 +104,15 @@
     }
   ],
   "launcher": {
-    "version": "1.0.2",
-    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.2.zip",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZXecy7Zjn0NkdmBRXVmcvLRpjNqPzDwuPrX",
-    "sha256": "451758a5762144c236a20ea87ac5fc39c8bf6ae9ae3d2301e305121fd1b02c4d"
+    "version": "1.0.3",
+    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.3.zip",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZnrp77ZybYn2NgbaJX4Tussm9IAckisHYqX",
+    "sha256": "460b4e06968bb0efb5c8ef67549d0e780681bc107c805d0c89ade3fbb2ee453e"
   },
   "full": {
-    "version": "1.0.9",
-    "url": "https://e.pcloud.link/publink/show?code=XZj3p77Z58kRjk1Cq7zNOo2nD2mkkbjdKDNV",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZj3p77Z58kRjk1Cq7zNOo2nD2mkkbjdKDNV",
-    "sha256": "93fd28dd4c584224b97c398b1c62e9f7f869a1fbf9b6851a68b0d6a0c305036d"
+    "version": "1.0.9.1",
+    "url": "https://e.pcloud.link/publink/show?code=XZerp77ZPGWd9QBuDLJTpcuMo1xGvQRoggKk",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZerp77ZPGWd9QBuDLJTpcuMo1xGvQRoggKk",
+    "sha256": "9c37a71533111e16ce4721c38ab39167fb72df6a9f43722d9ae3668604a1df9f"
   }
 }
