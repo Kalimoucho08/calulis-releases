@@ -9,7 +9,7 @@
       "mirror": "https://e.pcloud.link/publink/show?code=XZ93L77ZCiYK4TWxTA4KPTKea92j1VJu1pVk",
       "sha256": "c06457dc2a2bbec5f4bf8659222f75071a67c911cc1c595535783f7dd54a49eb",
       "launcherVersion": "1.0.4",
-      "requiresLauncherUpdate": true,
+      "requiresLauncherUpdate": false,
       "dbSchemaVersion": 4
     },
     {
@@ -104,7 +104,7 @@
     }
   ],
   "launcher": {
-    "version": "1.0.4",
+    "version": "1.0.0",
     "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.4.zip",
     "mirror": "https://e.pcloud.link/publink/show?code=XZc3L77ZG62is1ScigFSxr6waneWM5aFOafy",
     "sha256": "907469931f07cc5d62e65a753ec935aa080475fa01a114b6a5a9ed3f49a4698e"
