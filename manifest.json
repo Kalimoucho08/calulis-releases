@@ -1,7 +1,17 @@
 {
-  "latestVersion": "1.0.9.1",
+  "latestVersion": "1.10",
   "manifestMirror": "https://e.pcloud.link/publink/show?code=XZXop77ZWIthTmKHKVR6AueryHXLqFvOfj6V",
   "patches": [
+    {
+      "from": "1.0.9.1",
+      "to": "1.10",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.0.9.1-1.10.zip",
+      "mirror": "",
+      "sha256": "fe34f9aaed09169d0bb976d2ede62b1974ddce30eb07daa99c403a08059ef32f",
+      "launcherVersion": "1.0.3",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 4
+    },
     {
       "from": "1.0.9",
       "to": "1.0.9.1",
