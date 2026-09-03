@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.10",
-  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZG3L77ZbV257FR0mLpQEmf0lcvPR72r8Ajy",
+  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZnE477ZHmEszFogm776DHf17itOsuxX1Odk",
   "patches": [
     {
       "from": "1.0.9",
@@ -111,8 +111,8 @@
   },
   "full": {
     "version": "1.10",
-    "url": "https://e.pcloud.link/publink/show?code=XZKs477ZExQFHbf9q8zGVWr6KUCIFpKw2VOy",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZKs477ZExQFHbf9q8zGVWr6KUCIFpKw2VOy",
-    "sha256": "7f8befe394adc9a144e7d9526e593cbb4c974fa1edc9988e9775094254433c85"
+    "url": "https://e.pcloud.link/publink/show?code=XZi6477ZxDjUt67IfrFyOHFUUU4YBmM3mj0k",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZi6477ZxDjUt67IfrFyOHFUUU4YBmM3mj0k",
+    "sha256": "63895087b2aae426c57da2caaf48354f317750b172cbbc250af2f79ff079029b"
   }
 }
