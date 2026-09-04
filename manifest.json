@@ -1,7 +1,17 @@
 {
-  "latestVersion": "1.10",
-  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZnE477ZHmEszFogm776DHf17itOsuxX1Odk",
+  "latestVersion": "1.10.1",
+  "manifestMirror": "https://e.pcloud.link/publink/show?code=XZpJY77ZmdkgwHtvGsLegyokK5MTrF4DUGck",
   "patches": [
+    {
+      "from": "1.10",
+      "to": "1.10.1",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.10-1.10.1.zip",
+      "mirror": "https://e.pcloud.link/publink/show?code=XZw5Y77ZPiS0QDNnaChe5ivF3WXfbF3vNFpV",
+      "sha256": "4c51bf9ebb771efd648abdb1d7400566eb19285f91ca079ef6d8332d418ffa01",
+      "launcherVersion": "1.0.4",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 5
+    },
     {
       "from": "1.0.9",
       "to": "1.10",
@@ -110,9 +120,9 @@
     "sha256": "907469931f07cc5d62e65a753ec935aa080475fa01a114b6a5a9ed3f49a4698e"
   },
   "full": {
-    "version": "1.10",
-    "url": "https://e.pcloud.link/publink/show?code=XZi6477ZxDjUt67IfrFyOHFUUU4YBmM3mj0k",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZi6477ZxDjUt67IfrFyOHFUUU4YBmM3mj0k",
-    "sha256": "63895087b2aae426c57da2caaf48354f317750b172cbbc250af2f79ff079029b"
+    "version": "1.10.1",
+    "url": "https://e.pcloud.link/publink/show?code=XZ7JY77Zw7jrvmvTW45dAuj2pDRh4HefdvUk",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZ7JY77Zw7jrvmvTW45dAuj2pDRh4HefdvUk",
+    "sha256": "d6d786104ce90a9a91c3f038542771bee1c3fc14da22b085f4cc46dc052a99ce"
   }
 }
