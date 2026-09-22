@@ -137,12 +137,12 @@
     "version": "1.0.5",
     "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.5.zip",
     "mirror": "https://e.pcloud.link/publink/show?code=XZTOc77Zsv1tFSXOHKLhGlpiRUMK5Qt8KMh7",
-    "sha256": "1587ca4ab38f39a6b43cd6243ada587d14bf93deaf4c11bdb62cda10ca2797b3"
+    "sha256": "3529f12fbbfde1140a1be19b08a9081a94d238cb21ca5c8a11f285a2661ce989"
   },
   "full": {
     "version": "1.12",
     "url": "https://e.pcloud.link/publink/show?code=XZPOc77ZzvGFsP0kR97NaCD0e4OfXmAPGwBX",
     "mirror": "https://e.pcloud.link/publink/show?code=XZPOc77ZzvGFsP0kR97NaCD0e4OfXmAPGwBX",
-    "sha256": "27dbc72dc877438f2815e8d66ed60ecddc91d4e15c5190e08149016adf8ddeb7"
+    "sha256": "6c60f4a992b129dc32c5bb83886ab794b66de85ce2feb62c1a9405addaccd3bb"
   }
 }
