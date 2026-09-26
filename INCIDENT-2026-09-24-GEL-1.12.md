@@ -38,3 +38,53 @@ La diffusion de la 1.12 ne pourra être rétablie qu’après :
 ## Retour arrière du gel
 
 Pour annuler ce gel, restaurer la version précédente de `manifest.json` depuis le commit immédiatement antérieur, puis valider sur un poste de test. Les archives n’ayant pas été supprimées, aucune republication de ZIP n’est nécessaire.
+
+---
+
+## MISE A JOUR 26/09/2026 (soir) — coherence retablie et gel rendu etanche
+
+Audit realise par Harness/DeepSeek. Trois actions, toutes documentees et reversibles.
+
+### 1. Coherence du manifeste (commit `39fc6e6`)
+
+Le gel laissait `latestVersion: "1.11"` avec `full.version: "1.12"` : un utilisateur qui
+telechargeait la version complete obtenait la 1.12, celle qui a casse le poste. La section `full`
+pointe desormais sur le paquet complet **1.11** (`calulis-v1.11-portable.zip`,
+sha256 `617e5c2ba57d49338eaa8026b5f712a1668565786532b0ed9b3691b108941cbe`, valeur du commit de
+publication `a36eaac` — aucune valeur inventee).
+
+Changement **semantique unique** verifie par diff JSON : `full` seulement. `latestVersion`,
+`patches` (12), `launcher` et `manifestMirror` sont inchanges. Aucun ZIP supprime.
+
+Le fichier, que l'action d'urgence avait reecrit sur une seule ligne, est de nouveau indente.
+
+### 2. Miroir pCloud `manifest.json` mis a jour
+
+Le miroir pCloud (`XZC7j77ZNc031KDTpbj02hQIUO9SNYkYXHuy`) servait encore le manifeste 1.12. Il a
+ete remplace par le manifeste gele et coherent (verifie en telechargeant via le lien public).
+
+### 3. Gel rendu etanche : patch `1.11 -> 1.12` neutralise dans le miroir pCloud
+
+Le lanceur memorise le manifeste dans `runtime/update-cache.json`. Si GitHub est injoignable
+(frequent en etablissement), il reutilise ce manifeste memorise — qui pouvait encore contenir
+l'entree `1.11 -> 1.12` — et telechargeait alors le patch depuis son **miroir pCloud**, toujours en
+ligne. Le gel n'etait donc pas etanche.
+
+Le fichier du miroir a ete remplace par un texte neutre (876,1 Ko -> 647 octets) :
+
+- le SHA-256 servi ne correspond plus a celui annonce dans le manifeste, donc le lanceur
+  **refuse** le telechargement (`Hash invalide`) : l'echec est sur, aucune installation partielle ;
+- **aucun ZIP n'a ete supprime** : `patches/patch-1.11-1.12.zip` reste intact dans ce depot
+  (sha256 `a92c47a9a86a334a4a951d4e10000eeded26cd818be6be1035b32214fbf4a114`) ;
+- **pour retablir** : re-televerser `patches/patch-1.11-1.12.zip` de ce depot dans le dossier
+  pCloud `calluis-partage/calulis-update/patches/` (meme nom de fichier).
+
+### Ce qui reste a faire avant toute reprise de diffusion
+
+- Reproduire la panne sur un banc Windows (protocole `tests/protocole-test-secours-calulis.md`,
+  phase 2) et valider les correctifs du lanceur.
+- Ne pas restaurer `full` en 1.12 ni le miroir pCloud du patch avant que la 1.12 (ou une version
+  corrective) soit validee sur un Windows propre.
+- Validateur a utiliser avant chaque publication :
+  `scripts/valider-manifest.sh` (depot `calulis`). Il refuse l'incoherence
+  `latestVersion` / `full.version` qui est a l'origine de cette mise a jour.
