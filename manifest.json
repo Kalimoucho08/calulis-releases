@@ -1,7 +1,17 @@
 {
-  "latestVersion": "1.11",
+  "latestVersion": "1.12.1",
   "manifestMirror": "https://e.pcloud.link/publink/show?code=XZC7j77ZNc031KDTpbj02hQIUO9SNYkYXHuy",
   "patches": [
+    {
+      "from": "1.11",
+      "to": "1.12.1",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.11-1.12.1.zip",
+      "mirror": "https://e.pcloud.link/publink/show?code=XZkczk7ZirlDxyoHmxSoIK5RHI1EBbFLrJC7",
+      "sha256": "a68b154fced4f869e133cd595cb0f25a6bff0b3f22d13b6f4156034b9594cd07",
+      "launcherVersion": "1.0.10",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 5
+    },
     {
       "from": "1.10.1",
       "to": "1.11",
@@ -124,15 +134,15 @@
     }
   ],
   "launcher": {
-    "version": "1.0.8",
-    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.8.zip",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZTOc77Zsv1tFSXOHKLhGlpiRUMK5Qt8KMh7",
-    "sha256": "943234476c419a1abb78cb98f21d3835d6048c4ae699500c745eeb6ad8f011e2"
+    "version": "1.0.10",
+    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.10.zip",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZXczk7Z69fugjrOyDSxO6vKE5VNYJGVw17V",
+    "sha256": "93ebfc2976793d4a9bad95de1d6f80a2ba58d2fbbe15de63be1b276241815c76"
   },
   "full": {
-    "version": "1.11",
-    "url": "https://e.pcloud.link/publink/show?code=XZg7j77ZciPCcnuFRuhiKX266qtmAyIcPqrX",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZg7j77ZciPCcnuFRuhiKX266qtmAyIcPqrX",
-    "sha256": "617e5c2ba57d49338eaa8026b5f712a1668565786532b0ed9b3691b108941cbe"
+    "version": "1.12.1",
+    "url": "https://e.pcloud.link/publink/show?code=XZtIzk7ZUl5n83C3F455gIY5SzEMEJCWkkD7",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZtIzk7ZUl5n83C3F455gIY5SzEMEJCWkkD7",
+    "sha256": "ee9b241668e67869cf989f4638e57d337f938facfe7fa1389415ff924ec60ca2"
   }
 }
