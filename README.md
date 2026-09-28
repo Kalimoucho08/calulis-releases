@@ -5,9 +5,12 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 
 ## 📥 Téléchargement
 
-**Dernière version : v1.12.1** (lanceur 1.0.10)
+**Dernière version : v1.12.1** (lanceur **1.0.11**)
 
 [Télécharger Calulis v1.12.1](https://e.pcloud.link/publink/show?code=XZtIzk7ZUl5n83C3F455gIY5SzEMEJCWkkD7) (~228 Mo, portable)
+
+> Le ZIP complet embarque le lanceur **1.0.10** : au premier démarrage, Calulis propose le
+> lanceur **1.0.11** (~60 Mo) — il s'installe tout seul et sera actif au démarrage suivant.
 
 1. Extraire le ZIP n'importe où (clic droit → « Extraire tout »)
 2. Double-clic sur `Calulis.bat`
