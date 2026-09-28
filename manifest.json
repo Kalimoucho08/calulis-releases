@@ -3,6 +3,16 @@
   "manifestMirror": "https://e.pcloud.link/publink/show?code=XZC7j77ZNc031KDTpbj02hQIUO9SNYkYXHuy",
   "patches": [
     {
+      "from": "1.12",
+      "to": "1.12.1",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.12-1.12.1.zip",
+      "mirror": "https://e.pcloud.link/publink/show?code=XZtRLk7ZkjAUtx7F2bS3mRnLut1MMQsgh46X",
+      "sha256": "3d4034eeaa1e946712d1325d4923e4a52f48e328489e1fcb087ab2fd421c1643",
+      "launcherVersion": "1.0.10",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 5
+    },
+    {
       "from": "1.11",
       "to": "1.12.1",
       "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.11-1.12.1.zip",
