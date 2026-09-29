@@ -1,7 +1,37 @@
 {
-  "latestVersion": "1.12.1",
+  "latestVersion": "1.13",
   "manifestMirror": "https://e.pcloud.link/publink/show?code=XZC7j77ZNc031KDTpbj02hQIUO9SNYkYXHuy",
   "patches": [
+    {
+      "from": "1.12.1",
+      "to": "1.13",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.12.1-1.13.zip",
+      "mirror": "",
+      "sha256": "291724b895e55726a60b50b2f1a3e104e06bf28aa1080063b37073f0e70be5d2",
+      "launcherVersion": "1.0.11",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 5
+    },
+    {
+      "from": "1.12",
+      "to": "1.13",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.12-1.13.zip",
+      "mirror": "",
+      "sha256": "59f243fc0f19a8a750f8a64935dc6cbde5cddef495761cd02cacdd2b41dad898",
+      "launcherVersion": "1.0.11",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 5
+    },
+    {
+      "from": "1.11",
+      "to": "1.13",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.11-1.13.zip",
+      "mirror": "",
+      "sha256": "fdd384a4bd3e71052af7187c9b47dd89e73312e4fe978e347519361a0ab83a59",
+      "launcherVersion": "1.0.11",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 5
+    },
     {
       "from": "1.12",
       "to": "1.12.1",
@@ -150,9 +180,9 @@
     "sha256": "81f9642be9ee95c03e5c7e8e6ffe889bed76a8ad350b981662d160a4862e3e81"
   },
   "full": {
-    "version": "1.12.1",
-    "url": "https://e.pcloud.link/publink/show?code=XZtIzk7ZUl5n83C3F455gIY5SzEMEJCWkkD7",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZtIzk7ZUl5n83C3F455gIY5SzEMEJCWkkD7",
-    "sha256": "ee9b241668e67869cf989f4638e57d337f938facfe7fa1389415ff924ec60ca2"
+    "version": "1.13",
+    "url": "https://e.pcloud.link/publink/show?code=XZiEQk7ZdVzQJnrpdWQuo0hi82lGvQOd1AX0",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZiEQk7ZdVzQJnrpdWQuo0hi82lGvQOd1AX0",
+    "sha256": "34dc6f1630d859b57e31182f73c390e29c5b03db92d964f15a7693cc699579b6"
   }
 }

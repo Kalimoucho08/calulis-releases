@@ -5,12 +5,12 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 
 ## 📥 Téléchargement
 
-**Dernière version : v1.12.1** (lanceur **1.0.11**)
+**Dernière version : v1.13** (lanceur **1.0.11**)
 
-[Télécharger Calulis v1.12.1](https://e.pcloud.link/publink/show?code=XZtIzk7ZUl5n83C3F455gIY5SzEMEJCWkkD7) (~228 Mo, portable)
+[Télécharger Calulis v1.13](https://e.pcloud.link/publink/show?code=XZiEQk7ZdVzQJnrpdWQuo0hi82lGvQOd1AX0) (~228 Mo, portable)
 
-> Le ZIP complet embarque le lanceur **1.0.10** : au premier démarrage, Calulis propose le
-> lanceur **1.0.11** (~60 Mo) — il s'installe tout seul et sera actif au démarrage suivant.
+> Le ZIP complet embarque cette fois **le lanceur 1.0.11** : plus rien à télécharger au premier
+> démarrage. Le paquet contient aussi `THIRD-PARTY-NOTICES.md` (licences des composants).
 
 1. Extraire le ZIP n'importe où (clic droit → « Extraire tout »)
 2. Double-clic sur `Calulis.bat`
@@ -33,10 +33,22 @@ Si oui, il propose de la télécharger et de l'installer **automatiquement** :
 - ✅ Backup automatique avant chaque mise à jour
 - ✅ Pas besoin de retélécharger le ZIP complet
 
-Chaque version publiée a une route de mise à jour vers la dernière. Cas particulier : la route
-`1.12 → 1.12.1` a été **ajoutée le 28/09/2026** — sans elle, un poste resté en **1.12** (version
-distribuée du 22 au 26/09/2026) se voyait répondre « À jour (1.12) » et n'apprenait jamais
-l'existence de la 1.12.1.
+Chaque version publiée a une route de mise à jour **directe** vers la dernière. Ce n'est pas un
+confort : le lanceur **refuse** un patch dont la version d'arrivée est plus ancienne que
+`latestVersion` (garde-fou contre la redistribution d'une version retirée). Autrement dit, dès que
+`latestVersion` avance, **toutes** les routes existantes deviennent inapplicables : une version sans
+route directe reste bloquée, sans message.
+
+C'est ce qui est arrivé deux fois, et c'est pourquoi la 1.13 publie **trois** routes :
+
+| Version installée | Route vers la 1.13 |
+|---|---|
+| `1.12.1` (distribuée depuis le 28/09) | `patch-1.12.1-1.13.zip` |
+| `1.12` (distribuée du 22 au 28/09) | `patch-1.12-1.13.zip` |
+| `1.11` (distribuée du 07 au 22/09) | `patch-1.11-1.13.zip` |
+
+Les routes plus anciennes (`1.0.x`, `1.10`) ne sont plus applicables : leurs postes doivent
+réinstaller le ZIP complet (les données se restaurent par Sauvegarde/Restauration).
 
 ## 📁 Structure du dépôt
 
