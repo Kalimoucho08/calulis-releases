@@ -19,8 +19,9 @@ main : elle ne peut pas annoncer une autre version que celle que le lanceur inst
 
 1. Extraire le ZIP n'importe où (clic droit → « Extraire tout »)
 2. Double-clic sur `Calulis.bat`
-3. Au 1er lancement, choisir **Démo** (base pré-remplie) ou **Vierge** (départ à zéro)
-4. L'application s'ouvre sur http://127.0.0.1:8088
+3. Dans la fenêtre du lanceur, cliquer sur **Démarrer**
+4. Choisir **Base Démo** (données d'exemple) ou **Base Vierge** (départ à zéro)
+5. L'application s'ouvre sur http://127.0.0.1:8088
 
 Aucune installation — tout est embarqué (MySQL, PHP, interface web, runtime Visual C++).
 
