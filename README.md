@@ -5,6 +5,11 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 
 ## 📥 Téléchargement
 
+🌐 **Page de téléchargement (adresse stable, à partager)** :
+<https://kalimoucho08.github.io/calulis-releases/> — elle est **fabriquée à partir de
+`manifest.json`** par `scripts/generer-page-telechargement.py` (dépôt principal), jamais écrite à la
+main : elle ne peut pas annoncer une autre version que celle que le lanceur installe.
+
 **Dernière version : v1.13** (lanceur **1.0.11**)
 
 [Télécharger Calulis v1.13](https://e.pcloud.link/publink/show?code=XZiEQk7ZdVzQJnrpdWQuo0hi82lGvQOd1AX0) (~228 Mo, portable)
