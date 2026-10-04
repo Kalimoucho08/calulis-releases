@@ -49,6 +49,22 @@ Aucune installation — tout est embarqué (MySQL, PHP, interface web, runtime V
 **uniquement en 127.0.0.1**) : « Annuler » est sans conséquence. Le premier démarrage peut être
 lent (initialisation de la base) ; les attentes du lanceur sont de 180 s.
 
+## 🆘 Calulis ne démarre plus ? Sauvegarder vos données
+
+Un **outil de sauvegarde**, séparé de l'application, met vos données à l'abri quand Calulis refuse
+de s'ouvrir : il cherche votre installation, **copie d'abord** le dossier `runtime\data` (la base),
+recopie les journaux utiles au diagnostic, puis déplace le lancement automatique dans la sauvegarde.
+Il ne supprime rien, ne désinstalle rien, et ne coupe jamais la base de données.
+
+[⬇️ Télécharger l'outil de sauvegarde (14 Ko)](https://e.pcloud.link/publink/show?code=XZdn0k7ZLRfJIYkWjjB5AzqzuUwPVm09p67k)
+
+Un double-clic suffit (une confirmation est demandée avant toute action) ; le dossier de sauvegarde
+s'ouvre sur le Bureau à la fin. Envoyez alors `rapport-secours-calulis.txt`.
+
+Empreinte SHA-256 : `1d07f5ed0c7a920a9240292decff1db25b00fdd37da139152341895a96d8f011` (outil v2.2).
+La [page de téléchargement](https://kalimoucho08.github.io/calulis-releases/#secours) rappelle la
+version et l'empreinte de l'outil en cours : c'est elle qui fait foi.
+
 ## 🔄 Mises à jour automatiques
 
 À chaque démarrage, Calulis vérifie si une nouvelle version est disponible.
