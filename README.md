@@ -10,27 +10,32 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 `manifest.json`** par `scripts/generer-page-telechargement.py` (dépôt principal), jamais écrite à la
 main : elle ne peut pas annoncer une autre version que celle que le lanceur installe.
 
-**Dernière version : v1.14** (lanceur **1.0.11**)
+**Dernière version : v1.15** (lanceur **1.0.12**)
 
-[Télécharger Calulis v1.14](https://e.pcloud.link/publink/show?code=XZH9Sk7Z5fw0vOR829fDBkBPtnJqd8pTS09V) (~228 Mo, portable)
+[Télécharger Calulis v1.15](https://e.pcloud.link/publink/show?code=XZicnk7Z4BAH4IhjUyjWnPIq5coa2bX9HhOX) (~228 Mo, portable)
 
-Nouveautés de la 1.14 :
+Nouveautés de la 1.15 :
 
-- **Recherche globale** : les résultats s'affichent pendant la frappe (élèves, adultes,
-  établissements, classes), sans se soucier des accents ni des majuscules ; navigation au clavier
-  (flèches, Entrée, Échap) et élèves ou adultes archivés signalés comme tels.
-- **Statistiques par adulte** : heures de service par semaine, élèves suivis et répartition par type
-  d'accompagnement — une heure faite en groupe ne compte plus plusieurs fois.
-- **Impression des statistiques à la carte** : 12 blocs à cocher, un bloc par page, orientation
-  paysage automatique quand un tableau large est demandé.
-- **Accessibilité** : le contraste des textes a été mesuré écran par écran dans les deux thèmes et
-  corrigé (le panneau d'aide était illisible en thème sombre).
-- Corrections : pastilles de statut des réunions de nouveau colorées, petits boutons d'action
-  (Modifier, Supprimer, Fiche) lisibles en thème sombre. Le serveur Discord, inutilisé, a été retiré.
+- **Suivi des élèves** : des notes datées et rattachées à un élève, avec un type (observation,
+  objectif, réussite, alerte, action). Filtres par élève, type ou période, sélection par case et
+  impression en PDF — pour préparer une ESS, un PAI ou un livret.
+- **Tâches** : un tableau de post-its en cinq colonnes (à faire, plus tard, en cours, fait, annulé)
+  et une liste triable ; échéance, priorité, six couleurs, lien vers un élève ou un adulte. Le
+  statut se change en glissant une carte ou par le menu « Déplacer vers », qui marche au clavier.
+  Une tâche terminée ou annulée n'est plus signalée « en retard ».
+- **Impression des tâches** : ce qui reste à faire, ce qui a été fait sur une période, ou une
+  sélection cochée.
+- **Tableau de bord** : les tâches du jour (retard compris), avec une option pour celles de demain.
+- **Emploi du temps** : l'« Agenda » change de nom, et la barre latérale est rangée par fréquence
+  d'usage, le suivi et les tâches juste sous le tableau de bord.
+- **Correction RGPD** : les durées de conservation annoncées étaient fausses. Un élève suivi en
+  ULIS y reste cinq à sept ans et toutes ses données sont conservées pendant ce temps ; après sa
+  sortie, deux ans. Les comptes rendus de réunions suivent désormais l'élève.
+- La **base de démonstration** est enrichie : les deux nouveaux écrans sont visibles dès le premier
+  lancement.
 
-
-> Le ZIP complet embarque cette fois **le lanceur 1.0.11** : plus rien à télécharger au premier
-> démarrage. Le paquet contient aussi `THIRD-PARTY-NOTICES.md` (licences des composants).
+> Le ZIP complet embarque **le lanceur 1.0.12** : plus rien à télécharger au premier démarrage. Le
+> paquet contient aussi `THIRD-PARTY-NOTICES.md` (licences des composants).
 
 1. Extraire le ZIP n'importe où (clic droit → « Extraire tout »)
 2. Double-clic sur `Calulis.bat`
@@ -60,14 +65,15 @@ confort : le lanceur **refuse** un patch dont la version d'arrivée est plus anc
 `latestVersion` avance, **toutes** les routes existantes deviennent inapplicables : une version sans
 route directe reste bloquée, sans message.
 
-C'est ce qui est arrivé deux fois, et c'est pourquoi la 1.14 publie **quatre** routes :
+C'est ce qui est arrivé deux fois, et c'est pourquoi la 1.15 publie **cinq** routes :
 
-| Version installée | Route vers la 1.14 |
+| Version installée | Route vers la 1.15 |
 |---|---|
-| `1.13` (distribuée depuis le 29/09) | `patch-1.13-1.14.zip` |
-| `1.12.1` (distribuée du 28/09 au 29/09) | `patch-1.12.1-1.14.zip` |
-| `1.12` (distribuée du 22 au 28/09) | `patch-1.12-1.14.zip` |
-| `1.11` (distribuée du 07 au 22/09) | `patch-1.11-1.14.zip` |
+| `1.14` (distribuée depuis le 01/10) | `patch-1.14-1.15.zip` |
+| `1.13` (distribuée du 29/09 au 01/10) | `patch-1.13-1.15.zip` |
+| `1.12.1` (distribuée du 28/09 au 29/09) | `patch-1.12.1-1.15.zip` |
+| `1.12` (distribuée du 22 au 28/09) | `patch-1.12-1.15.zip` |
+| `1.11` (distribuée du 07 au 22/09) | `patch-1.11-1.15.zip` |
 
 Les routes plus anciennes (`1.0.x`, `1.10`) ne sont plus applicables : leurs postes doivent
 réinstaller le ZIP complet (les données se restaurent par Sauvegarde/Restauration).
