@@ -10,9 +10,26 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 `manifest.json`** par `scripts/generer-page-telechargement.py` (dépôt principal), jamais écrite à la
 main : elle ne peut pas annoncer une autre version que celle que le lanceur installe.
 
-**Dernière version : v1.15** (lanceur **1.0.12**)
+**Dernière version : v1.15.1** (lanceur **1.0.14**)
 
-[Télécharger Calulis v1.15](https://e.pcloud.link/publink/show?code=XZicnk7Z4BAH4IhjUyjWnPIq5coa2bX9HhOX) (~228 Mo, portable)
+[Télécharger Calulis v1.15.1](https://e.pcloud.link/publink/show?code=XZorTk7ZigQqigtzuK7HggjgO3UOQyiGquJk) (~228 Mo, portable)
+
+Nouveautés de la 1.15.1 — une version de **robustesse et de sécurité**, qui se propage
+toute seule par la mise à jour automatique :
+
+- **Une seule base, et c'est la vôtre** : Calulis ne propose plus de choisir entre plusieurs bases.
+  Il ouvre celle que vous utilisez, et toutes les opérations portent sur elle.
+- **Vos données sont sauvegardées avant tout remplacement** : importer un fichier `.sql` ou
+  recharger une sauvegarde commence par une sauvegarde automatique, dont le dossier est affiché ;
+  si elle échoue, **rien n'est remplacé**. La question nomme ce qui sera remplacé, et la réponse
+  par défaut est « Non ».
+- **Si vous aviez plusieurs bases** (anciens imports), Calulis propose de les exporter en `.sql`.
+  Il n'en supprime ni n'en renomme aucune.
+- **Sécurité** : la base MySQL embarquée n'a plus de compte sans mot de passe. Chaque installation
+  reçoit des mots de passe tirés au hasard, conservés dans votre dossier Calulis
+  (`runtime/mysql-credentials.json`) ; les installations existantes sont sécurisées au premier
+  démarrage. Les fichiers de données et les outils internes ne sont plus accessibles depuis le
+  navigateur, et Calulis ne répond plus qu'à votre ordinateur.
 
 Nouveautés de la 1.15 :
 
@@ -34,7 +51,7 @@ Nouveautés de la 1.15 :
 - La **base de démonstration** est enrichie : les deux nouveaux écrans sont visibles dès le premier
   lancement.
 
-> Le ZIP complet embarque **le lanceur 1.0.12** : plus rien à télécharger au premier démarrage. Le
+> Le ZIP complet embarque **le lanceur 1.0.14** : plus rien à télécharger au premier démarrage. Le
 > paquet contient aussi `THIRD-PARTY-NOTICES.md` (licences des composants).
 
 1. Extraire le ZIP n'importe où (clic droit → « Extraire tout »)
@@ -81,15 +98,17 @@ confort : le lanceur **refuse** un patch dont la version d'arrivée est plus anc
 `latestVersion` avance, **toutes** les routes existantes deviennent inapplicables : une version sans
 route directe reste bloquée, sans message.
 
-C'est ce qui est arrivé deux fois, et c'est pourquoi la 1.15 publie **cinq** routes :
+C'est ce qui est arrivé deux fois, et c'est pourquoi la 1.15.1 publie **six** routes — toutes les
+versions encore installées reçoivent la correction de sécurité :
 
-| Version installée | Route vers la 1.15 |
+| Version installée | Route vers la 1.15.1 |
 |---|---|
-| `1.14` (distribuée depuis le 01/10) | `patch-1.14-1.15.zip` |
-| `1.13` (distribuée du 29/09 au 01/10) | `patch-1.13-1.15.zip` |
-| `1.12.1` (distribuée du 28/09 au 29/09) | `patch-1.12.1-1.15.zip` |
-| `1.12` (distribuée du 22 au 28/09) | `patch-1.12-1.15.zip` |
-| `1.11` (distribuée du 07 au 22/09) | `patch-1.11-1.15.zip` |
+| `1.15` (distribuée le 04/10) | `patch-1.15-1.15.1.zip` |
+| `1.14` (distribuée du 01/10 au 04/10) | `patch-1.14-1.15.1.zip` |
+| `1.13` (distribuée du 29/09 au 01/10) | `patch-1.13-1.15.1.zip` |
+| `1.12.1` (distribuée du 28/09 au 29/09) | `patch-1.12.1-1.15.1.zip` |
+| `1.12` (distribuée du 22 au 28/09) | `patch-1.12-1.15.1.zip` |
+| `1.11` (distribuée du 07 au 22/09) | `patch-1.11-1.15.1.zip` |
 
 Les routes plus anciennes (`1.0.x`, `1.10`) ne sont plus applicables : leurs postes doivent
 réinstaller le ZIP complet (les données se restaurent par Sauvegarde/Restauration).
