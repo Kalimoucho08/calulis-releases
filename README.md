@@ -10,9 +10,29 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 `manifest.json`** par `scripts/generer-page-telechargement.py` (dépôt principal), jamais écrite à la
 main : elle ne peut pas annoncer une autre version que celle que le lanceur installe.
 
-**Dernière version : v1.15.1** (lanceur **1.0.14**)
+**Dernière version : v1.16** (lanceur **1.0.15**)
 
-[Télécharger Calulis v1.15.1](https://e.pcloud.link/publink/show?code=XZorTk7ZigQqigtzuK7HggjgO3UOQyiGquJk) (~228 Mo, portable)
+[Télécharger Calulis v1.16](https://e.pcloud.link/publink/show?code=XZGidk7ZIqhQ4ppkRSLrjgmxash15pNq9rYy) (~228 Mo, portable)
+
+Nouveautés de la 1.16 — **les documents des élèves entrent dans Calulis** :
+
+- **Rangez les papiers d'un élève dans l'application** : PDF, scan, photo, courrier, document
+  Word ou texte, rattaché à un élève et à un type (notification MDPH, PPS, GEVA-Sco, compte rendu
+  d'ESS, PAI, document médical, bilan d'un professionnel, bulletin…). Le fichier est **copié dans
+  votre dossier Calulis** : même si l'original est déplacé, renommé ou supprimé, il reste
+  consultable. Rien ne part sur Internet.
+- **Aperçu intégré** (PDF, image, texte), y compris sans connexion. **Filtres** par élève, par
+  type, avec ou sans fichier, et **recherche** par mot — le nom de l'élève comme celui du fichier
+  d'origine. Le **poids** des fichiers est affiché, les colonnes se trient.
+- **Un onglet Documents dans la fiche de l'élève**, et un **compteur cliquable** dans la liste.
+- **« Emporter le dossier (ZIP) »** : tous les documents d'un élève dans un seul fichier, avec un
+  index lisible qui dit, pour chaque pièce, son type et sa date — pour le transmettre.
+- **Les types de documents vous appartiennent** : ajoutez, renommez, désactivez, supprimez.
+  Supprimer un type encore utilisé est refusé, avec proposition de réaffecter ses documents.
+- **Droit à l'effacement** : supprimer un élève propose d'abord d'emporter son dossier, puis
+  efface ses documents et ses fichiers. La page « Mentions RGPD » a été revue de fond en comble.
+- **Nouveau lanceur (1.0.15)** : quand Calulis refuse de démarrer, il propose une **réparation
+  guidée** qui met les données à l'abri d'abord, répare, et écrit un compte rendu.
 
 Nouveautés de la 1.15.1 — une version de **robustesse et de sécurité**, qui se propage
 toute seule par la mise à jour automatique :
