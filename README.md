@@ -10,9 +10,26 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 `manifest.json`** par `scripts/generer-page-telechargement.py` (dépôt principal), jamais écrite à la
 main : elle ne peut pas annoncer une autre version que celle que le lanceur installe.
 
-**Dernière version : v1.16** (lanceur **1.0.15**)
+**Dernière version : v1.16.2** (lanceur **1.0.16**)
 
-[Télécharger Calulis v1.16](https://e.pcloud.link/publink/show?code=XZGidk7ZIqhQ4ppkRSLrjgmxash15pNq9rYy) (~228 Mo, portable)
+[Télécharger Calulis v1.16.2](https://e.pcloud.link/publink/show?code=XZFtOk7ZA9W2UvnFf0YlHMaSaw3flbUjr7o7) (~228 Mo, portable)
+
+Nouveautés de la 1.16.2 — deux corrections :
+
+- **Un double clic sur « Enregistrer » ne crée plus deux fois la même chose** : le bouton se grise
+  pendant l'enregistrement, et un clic de trop ne fait plus rien — dans les tâches, les notes de
+  suivi, les classes, les réunions, les fiches élèves et adultes, les paramètres, les créneaux de
+  l'emploi du temps, les listes et les documents.
+- **Un fichier exécutable renommé en .pdf est refusé au dépôt**, comme cela était prévu : le
+  contrôle ne s'exécutait pas dans les versions précédentes.
+
+Nouveautés de la 1.16.1 — **la sauvegarde avant mise à jour se fait vraiment** :
+
+- Le lanceur annonçait mettre votre base de données à l'abri avant d'installer une mise à jour, et
+  ne le faisait pas : le fichier de sauvegarde restait **vide**, sans que rien ne le signale.
+  Corrigé, et le résultat est vérifié — un fichier vide n'est plus accepté comme une sauvegarde.
+  Le compte rendu indique le **chemin et la taille** de la sauvegarde, ou dit clairement qu'elle
+  n'a pas pu être faite.
 
 Nouveautés de la 1.16 — **les documents des élèves entrent dans Calulis** :
 
