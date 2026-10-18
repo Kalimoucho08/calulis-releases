@@ -10,11 +10,28 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 `manifest.json`** par `scripts/generer-page-telechargement.py` (dépôt principal), jamais écrite à la
 main : elle ne peut pas annoncer une autre version que celle que le lanceur installe.
 
-**Dernière version : v1.16.3** (lanceur **1.0.17**)
+**Dernière version : v1.17** (lanceur **1.0.17**, inchangé)
 
-[Télécharger Calulis v1.16.3](https://e.pcloud.link/publink/show?code=XZcj0X7ZaeePNlLRY77XO05X1iKKbpuYJhx7) (~228 Mo, portable)
+[Télécharger Calulis v1.17](https://e.pcloud.link/publink/show?code=XZ1k5X7ZgmDTz8t8RIFDpSyc7dHDQB3hOAMk) (~228 Mo, portable)
 
-Nouveautés de la 1.16.3 — **la fenêtre du lanceur ne se ferme plus par accident** :
+Nouveautés de la 1.17 — **l'impression est refaite** :
+
+- **Un seul écran « Impression »** : réglages à gauche, aperçu A4 à droite, régénéré à chaque
+  changement. Sept documents, dix sorties.
+- **Les PDF gardent les couleurs de l'écran**, vue adulte comprise (elle sortait en noir et blanc).
+- **Chaque document a ses propres réglages, enregistrés** : bandeaux haut et bas (cases + texte
+  libre), marges, orientation, numéros de page, « tenir sur une page ».
+- **Les statistiques s'enchaînent** (2–3 blocs par page, ou un par page), avec l'orientation
+  décidée par bloc (large = paysage).
+- **Des noms de fichiers clairs** : `calulis-document-détail-semaine-date.pdf`.
+- **Corrections** : « Imprimer » ne peut plus sortir le document précédent, la liste des élèves
+  tient dans la page, et un adulte co-animé retrouve tous ses créneaux.
+
+La base de données ne change pas (schéma 8) et le lanceur non plus : pas de redémarrage
+supplémentaire. La mise à jour automatique fonctionne depuis la 1.16.3, la 1.16.2, la 1.16.1, la
+1.16, la 1.15.1, la 1.15, la 1.14, la 1.13 ou la 1.12.1.
+
+Depuis la 1.16.3 — **la fenêtre du lanceur ne se ferme plus par accident** :
 
 - **La touche Entrée lance Calulis** au lieu de fermer le lanceur : elle était liée à « Annuler »,
   et un réflexe suffisait à faire disparaître la fenêtre sans un mot.
@@ -25,8 +42,6 @@ Nouveautés de la 1.16.3 — **la fenêtre du lanceur ne se ferme plus par accid
   32 Mo), et le lanceur le dit clairement quand l'un manque.
 - **Sans mise à jour légère disponible depuis votre version, le lanceur propose la version
   complète** au lieu d'annoncer « À jour » — un poste resté en arrière ne peut plus l'ignorer.
-
-L'application elle-même ne change pas, et la base de données non plus (schéma 8).
 
 Nouveautés de la 1.16.2 — deux corrections :
 
