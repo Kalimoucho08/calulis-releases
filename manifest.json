@@ -1,88 +1,98 @@
 {
-  "latestVersion": "1.16.2",
+  "latestVersion": "1.16.3",
   "manifestMirror": "https://e.pcloud.link/publink/show?code=XZC7j77ZNc031KDTpbj02hQIUO9SNYkYXHuy",
   "patches": [
     {
+      "from": "1.16.2",
+      "to": "1.16.3",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.16.2-1.16.3.zip",
+      "mirror": "",
+      "sha256": "84c8bf6201d0a37e7bad5420ba421eeb3a51c7135eb41fbb033747fe61bddd20",
+      "launcherVersion": "1.0.17",
+      "requiresLauncherUpdate": false,
+      "dbSchemaVersion": 8
+    },
+    {
       "from": "1.16.1",
-      "to": "1.16.2",
-      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.16.1-1.16.2.zip",
-      "mirror": "https://e.pcloud.link/publink/show?code=XZBtOk7Zn6Y6myBiPFVeGB50xedVMzFnQm1k",
-      "sha256": "8bc70a5acc70a85938ce5e5affc17fbfbe5bfd89f9ff5c6a41c2dfdfaab8a931",
-      "launcherVersion": "1.0.16",
+      "to": "1.16.3",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.16.1-1.16.3.zip",
+      "mirror": "",
+      "sha256": "85e33bf9576faecaf428160979f578468ba115f9e4ab10916f247a17e50ea9a4",
+      "launcherVersion": "1.0.17",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 8
     },
     {
       "from": "1.16",
-      "to": "1.16.2",
-      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.16-1.16.2.zip",
-      "mirror": "https://e.pcloud.link/publink/show?code=XZftOk7ZXvUHihF8pRV7HJvSincOgHfIYCfk",
-      "sha256": "1907bd503a2394e2724deb06924423edbaaa37278dc0578ae6aefc8049318b50",
-      "launcherVersion": "1.0.16",
+      "to": "1.16.3",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.16-1.16.3.zip",
+      "mirror": "",
+      "sha256": "8a384d57f998ab57c24724e7eb1c842aafe8fed75bee44857d197e619c7d6cfc",
+      "launcherVersion": "1.0.17",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 8
     },
     {
       "from": "1.15.1",
-      "to": "1.16.2",
-      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.15.1-1.16.2.zip",
-      "mirror": "https://e.pcloud.link/publink/show?code=XZjtOk7Zik6TtvLPtR5ysicMfHER8SuWx25y",
-      "sha256": "cc7c92f353f8a09c7df85bc0dd89b587b61136e5e8349479fa9a9bf2767f370c",
-      "launcherVersion": "1.0.16",
+      "to": "1.16.3",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.15.1-1.16.3.zip",
+      "mirror": "",
+      "sha256": "6d98406ebf43cabf0493f07a5df0e8e9ce6acd80b221d94af699037931b5f04d",
+      "launcherVersion": "1.0.17",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 8
     },
     {
       "from": "1.15",
-      "to": "1.16.2",
-      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.15-1.16.2.zip",
-      "mirror": "https://e.pcloud.link/publink/show?code=XZStOk7ZNrpzbRkYPDFdUA9GTtqanbMbE0I7",
-      "sha256": "a7a86dc6d95499d21eca3ad2da7c7c4ba777fcdd4e8d9a9572e7c87c6fb52e67",
-      "launcherVersion": "1.0.16",
+      "to": "1.16.3",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.15-1.16.3.zip",
+      "mirror": "",
+      "sha256": "76c8d7436e5bbcd2e9dba8f20a3a3e03c4fc70ae9db55d75f6f73569da448bca",
+      "launcherVersion": "1.0.17",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 8
     },
     {
       "from": "1.14",
-      "to": "1.16.2",
-      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.14-1.16.2.zip",
-      "mirror": "https://e.pcloud.link/publink/show?code=XZhtOk7ZmAaEEoHIbQHR3C6UOymAGRpE8pOV",
-      "sha256": "cf787dc83857d462fe44d00d0b5825010d04fcb84851862c9122ccd1d1ca6f91",
-      "launcherVersion": "1.0.16",
+      "to": "1.16.3",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.14-1.16.3.zip",
+      "mirror": "",
+      "sha256": "0117be166f5a3cf0a5e53bc33d27cacd53d0d76c24c876056706c889c494e6c7",
+      "launcherVersion": "1.0.17",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 8
     },
     {
       "from": "1.13",
-      "to": "1.16.2",
-      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.13-1.16.2.zip",
-      "mirror": "https://e.pcloud.link/publink/show?code=XZmtOk7Z1xQ2zdBJwuVGvsVFlic8BQqqczV0",
-      "sha256": "6f6d1f731302eb115a7aab2d05bc4074202ebd2177a0b057b40c4cb695c576f8",
-      "launcherVersion": "1.0.16",
+      "to": "1.16.3",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.13-1.16.3.zip",
+      "mirror": "",
+      "sha256": "099fb8cbc8ba9ab521a92b2f4b9676ef2879163c4197744339e90cd0bde3f1a0",
+      "launcherVersion": "1.0.17",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 8
     },
     {
       "from": "1.12.1",
-      "to": "1.16.2",
-      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.12.1-1.16.2.zip",
-      "mirror": "https://e.pcloud.link/publink/show?code=XZYtOk7ZUsX6Ir7g10Xa56fvglXDXkp9ap3X",
-      "sha256": "82cae28928783f9edf6020307cc2459cb7a2a4bc6891d15c3b4e12858b4b0e3a",
-      "launcherVersion": "1.0.16",
+      "to": "1.16.3",
+      "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/patches/patch-1.12.1-1.16.3.zip",
+      "mirror": "",
+      "sha256": "b71db82e65a5f5cd4effb27845853f06c6d94d6cbfbb4c9c28d3ce3a64943199",
+      "launcherVersion": "1.0.17",
       "requiresLauncherUpdate": false,
       "dbSchemaVersion": 8
     }
   ],
   "launcher": {
-    "version": "1.0.16",
-    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.16.zip",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZIUtk7Zhh0msePJ2Yb9PUiU50cRtBWqHDqy",
-    "sha256": "b09f57ebe98d91aedca7bdf6d98ccce33fe502201b1520fd72b08333893a6e7b"
+    "version": "1.0.17",
+    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.17.zip",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZku0X7ZYkExKSPAcrSDOlpodA3Ow4mgSY1V",
+    "sha256": "286bcdf95737e138e6c58fd0a25d8ef1f43b61408bc475207fc3ba3f81b4968e"
   },
   "full": {
-    "version": "1.16.2",
-    "url": "https://e.pcloud.link/publink/show?code=XZFtOk7ZA9W2UvnFf0YlHMaSaw3flbUjr7o7",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZFtOk7ZA9W2UvnFf0YlHMaSaw3flbUjr7o7",
-    "sha256": "02edddd43cde5a546222fe6eb947c5e6744329a7e6a7c587a30abaed82018b8b"
+    "version": "1.16.3",
+    "url": "https://e.pcloud.link/publink/show?code=XZcj0X7ZaeePNlLRY77XO05X1iKKbpuYJhx7",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZcj0X7ZaeePNlLRY77XO05X1iKKbpuYJhx7",
+    "sha256": "aa85f56b8121d2d7566468e5e4a47f72c12144cc5e20eee70e9b2e563c470db8"
   }
 }
