@@ -10,9 +10,23 @@ Suivi des élèves, adultes, réunions, emplois du temps, statistiques.
 `manifest.json`** par `scripts/generer-page-telechargement.py` (dépôt principal), jamais écrite à la
 main : elle ne peut pas annoncer une autre version que celle que le lanceur installe.
 
-**Dernière version : v1.16.2** (lanceur **1.0.16**)
+**Dernière version : v1.16.3** (lanceur **1.0.17**)
 
-[Télécharger Calulis v1.16.2](https://e.pcloud.link/publink/show?code=XZFtOk7ZA9W2UvnFf0YlHMaSaw3flbUjr7o7) (~228 Mo, portable)
+[Télécharger Calulis v1.16.3](https://e.pcloud.link/publink/show?code=XZcj0X7ZaeePNlLRY77XO05X1iKKbpuYJhx7) (~228 Mo, portable)
+
+Nouveautés de la 1.16.3 — **la fenêtre du lanceur ne se ferme plus par accident** :
+
+- **La touche Entrée lance Calulis** au lieu de fermer le lanceur : elle était liée à « Annuler »,
+  et un réflexe suffisait à faire disparaître la fenêtre sans un mot.
+- **Le bouton « Démarrer » répond tout de suite** : la vérification des mises à jour ne le bloque
+  plus, et elle abandonne au bout de 8 secondes quand le serveur ne répond pas.
+- **Chaque fichier de mise à jour est vérifié par son empreinte SHA-256** avant d'être installé.
+- **Les modules de PHP nécessaires sont contrôlés au démarrage** (dont l'envoi de fichiers jusqu'à
+  32 Mo), et le lanceur le dit clairement quand l'un manque.
+- **Sans mise à jour légère disponible depuis votre version, le lanceur propose la version
+  complète** au lieu d'annoncer « À jour » — un poste resté en arrière ne peut plus l'ignorer.
+
+L'application elle-même ne change pas, et la base de données non plus (schéma 8).
 
 Nouveautés de la 1.16.2 — deux corrections :
 
