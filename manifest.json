@@ -94,10 +94,11 @@
     }
   ],
   "launcher": {
-    "version": "1.0.17",
-    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.17.zip",
-    "mirror": "https://e.pcloud.link/publink/show?code=XZku0X7ZYkExKSPAcrSDOlpodA3Ow4mgSY1V",
-    "sha256": "286bcdf95737e138e6c58fd0a25d8ef1f43b61408bc475207fc3ba3f81b4968e"
+    "version": "1.0.18",
+    "url": "https://raw.githubusercontent.com/Kalimoucho08/calulis-releases/main/launcher/calulis-launcher-1.0.18.zip",
+    "mirror": "https://e.pcloud.link/publink/show?code=XZIWbX7ZEs8S5KjpL9mmOXY9x1lIGRfCzr27",
+    "sha256": "ec39927c5a5e2ad87b39cec85d7a7d8e6c0b6c1e60395c15bd2b113f45218ba9",
+    "tailleOctets": 62010552
   },
   "full": {
     "version": "1.17",
