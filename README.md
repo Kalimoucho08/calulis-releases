@@ -26,8 +26,12 @@ Nouveautés de la 1.17 — **l'impression est refaite** :
 - **Des noms de fichiers clairs** : `calulis-document-détail-semaine-date.pdf`.
 - **Corrections** : « Imprimer » ne peut plus sortir le document précédent, la liste des élèves
   tient dans la page, et un adulte co-animé retrouve tous ses créneaux.
+- **Correction — événements modèles** : créer un événement en laissant cochée la case « Événement
+  modèle » fonctionne de nouveau, et la base de démonstration s'importe entièrement. Un modèle
+  n'appartient à aucune année scolaire ; la base l'accepte désormais (schéma 9).
 
-La base de données ne change pas (schéma 8) et le lanceur non plus : pas de redémarrage
+La base passe au **schéma 9** : une migration automatique rend la colonne des événements modèles
+nullable, sans toucher aux lignes existantes. Le lanceur ne change pas : pas de redémarrage
 supplémentaire. La mise à jour automatique fonctionne depuis la 1.16.3, la 1.16.2, la 1.16.1, la
 1.16, la 1.15.1, la 1.15, la 1.14, la 1.13 ou la 1.12.1.
 
