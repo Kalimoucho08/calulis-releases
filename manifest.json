@@ -1,7 +1,5 @@
 {
   "latestVersion": "1.17.1",
-  "updatesEnabled": false,
-  "freezeMessage": "Mise a jour 1.17.1 en cours de verification. Reessayez dans quelques minutes.",
   "manifestMirror": "https://e.pcloud.link/publink/show?code=XZC7j77ZNc031KDTpbj02hQIUO9SNYkYXHuy",
   "patches": [
     {
