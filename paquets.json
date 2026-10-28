@@ -1,6 +1,14 @@
 {
   "paquets": [
     {
+      "version": "1.20",
+      "url": "https://e.pcloud.link/publink/show?code=XZoBnX7ZhNgN1mtyhTHEcjaPbmMgQHjby8Ok",
+      "sha256": "3641f081eff2c9eebe1be8dd9f448efd7e5fe9018eb67a6a762809febcb39251",
+      "taille": 240381699,
+      "date": "2026-10-28",
+      "en_ligne": true
+    },
+    {
       "version": "1.17.1",
       "url": "https://e.pcloud.link/publink/show?code=XZXnuX7ZMFmt0HmP1MYUmTdIhhVI64KCXw8V",
       "sha256": "b9e63584358d184f6c27a07bd6a5444e2eab31342c7bcafa54b1e5b0a1a273e7",
